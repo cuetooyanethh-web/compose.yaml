@@ -13,13 +13,13 @@ sudo apt install -y docker.io
 
 # 2. Habilitar Docker y refrescar la sesión actual
 sudo systemctl enable docker --now
-sudo usermod -aG docker \(USER && su\)USER
+sudo usermod -aG docker $USER && su $USER
 
 # 3. Instalar la herramienta Docker Compose
 sudo apt install docker-compose
 
 # 4. Clonar este repositorio corregido
-git clone https://github.com
+git clone https://github.com/cuetooyanethh-web/compose.yaml.git
 
 # 5. Entrar a la carpeta del proyecto
 cd compose.yaml
