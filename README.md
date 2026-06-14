@@ -42,6 +42,6 @@ Debes ingresar usando obligatoriamente **HTTP**. Si intentas usar HTTPS el puert
 
 👉 Dirección de acceso: http://127.0.0.1:9392
 
-![Pantalla de OpenVAS](openvas.png)
+![Pantalla de OpenVAS](openvas.png) 
 
 
