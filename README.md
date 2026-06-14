@@ -1,4 +1,4 @@
-# Instalación de OpenVAS en Docker Corregido por Cueto
+# Instalación de OpenVAS en Docker
 
 Este repositorio contiene la solución definitiva para desplegar Greenbone OpenVAS Community Edition en Kali Linux usando Docker Compose. Se han reparado los errores de dependencias circulares y los conflictos de puertos del archivo oficial.
 
