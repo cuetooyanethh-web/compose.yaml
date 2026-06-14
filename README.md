@@ -8,7 +8,7 @@ Abre tu terminal en Kali Linux y ejecuta estos tres comandos en orden:
 
 ```bash
 # 1. Clonar el repositorio completo en tu máquina
-git clone https://github.com/cuetooyanethh-web/openvas-docker-fix.git
+git clone https://github.com/cuetooyanethh-web/compose.yaml.git
 
 # 2. Entrar a la carpeta del proyecto que se acaba de descargar
 cd openvas-docker-fix
