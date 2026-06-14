@@ -41,3 +41,6 @@ docker compose -f compose.yaml exec -u gvmd gvmd gvmd --user=admin --new-passwor
 Debes ingresar usando obligatoriamente **HTTP**. Si intentas usar HTTPS el puerto no va a funcionar y la página no va a abrir.
 
 👉 Dirección de acceso: http://127.0.0.1:9392
+
+![Pantalla de OpenVAS](openvas .png)
+
