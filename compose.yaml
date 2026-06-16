@@ -194,6 +194,7 @@ services:
     volumes:
       - openvas_data_vol:/etc/openvas
       - openvas_log_data_vol:/var/log/openvas
+      - vt_data_vol:/var/lib/openvas/plugins
     command:
       - /bin/sh
       - -c
@@ -218,6 +219,7 @@ services:
       - openvas_log_data_vol:/var/log/openvas
       - gpg_data_vol:/etc/openvas/gnupg
       - notus_data_vol:/var/lib/notus
+      - vt_data_vol:/var/lib/openvas/plugins
     depends_on:
       vulnerability-tests:
         condition: service_started
