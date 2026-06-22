@@ -112,13 +112,13 @@ services:
       pg-gvm:
         condition: service_started
       scap-data:
-        condition: service_healthy
+        condition: service_started
       cert-bund-data:
-        condition: service_healthy
+        condition: service_started
       dfn-cert-data:
-        condition: service_healthy
+        condition: service_started
       data-objects:
-        condition: service_healthy
+        condition: service_started
       report-formats:
         condition: service_healthy
 
