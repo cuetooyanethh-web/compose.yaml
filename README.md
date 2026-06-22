@@ -27,6 +27,7 @@ cd compose.yaml
 # 6. Descargar las imágenes y levantar el contenedor
 docker compose -f compose.yaml pull
 docker compose -f compose.yaml up -d
+docker compose -f compose.yaml logs -f
 ```
 
 ## 🔐 Configuración de Acceso (Login)
